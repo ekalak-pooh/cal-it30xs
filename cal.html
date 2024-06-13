@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html manifest="tiall.manifest">
+<head><title>aimsGED:Calculator</title>
+<meta charset="UTF-8">
+<meta id="viewport" name="viewport" content="width=300" />
+<link rel="manifest" href="tiall.webmanifest">
+<link rel="stylesheet" href="style.css" />
+<meta name="application-name" content="TI Emulator">
+<link rel="shortcut icon" href="ti30xs.png" />
+<meta name="apple-mobile-web-app-capable" content="yes" />
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+<link rel="apple-touch-icon" href="ti30xs.png" />
+<link rel="icon" href="ti30xs.png" />
+<script type="text/javascript" src="tipro.js"></script>
+<script type="text/javascript" src="ticol.js"></script>
+<script type="text/javascript" src="ti30x.js"></script>
+<script type="text/javascript" src="ti34m.js"></script>
+<script type="text/javascript" src="script.js"></script>
+</head>
+<body class="offline">
+<div id="calc">
+<img src="ti30xs.png" width="293" height="608" usemap="#calculatorMap" id="calculator" tabindex="0">
+<map name="calculatorMap">
+  <area shape="rect" coords="70,573,239,604" href="https://www.aims.co.th/ged" target="new" alt="คลิกดูข้อมูลเกี่ยวกับ GED">
+</map>
+<canvas id="canvas" width="192" height="74"></canvas>
+<canvas id="screenbuffer" width="96" height="31"></canvas>
+<canvas id="indbuf" width="192" height="7"></canvas>
+<ul id="skins">
+</ul>
+</div>
+</body>
+</html>
